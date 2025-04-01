@@ -1,0 +1,345 @@
+:root {
+  --MAIN_COLOR: #84bd00;
+  --DARKGRAY_COLOR: #333f48;
+  --MEDIUMGRAY_COLOR: #707070;
+  --DARKBLACK_COLOR: #252f3b;
+  --LIGHTBLACK_COLOR: #3b3c3f;
+  --ORANGE_COLOR: #ff7f30;
+  --BACKGROUND_COLOR: #f5f5f5;
+}
+
+.workoutBuiderFrameStyle {
+  max-width: 130rem;
+  height: 70rem;
+  /* background-color: transparent; */
+  background: #fff;
+  border: 2rem solid var(--MAIN_COLOR);
+  /* // border: 3rem solid red; */
+  text-align: center;
+  line-height: 70rem;
+  margin: 10rem;
+  width: 130rem;
+}
+.invisibleScrollbar::-webkit-scrollbar{
+  background: #EFEFEF;
+
+}
+.invisibleScrollbar::-webkit-scrollbar-thumb{
+   
+   
+}
+.card {
+
+  width: 131rem;
+  height: 103rem;
+  border: 3rem solid var(--MAIN_COLOR);
+  line-height: 103rem;
+  font-size: 22rem;
+}
+
+.weightGraphFrameStyle {
+  color: var(--DARKGRAY_COLOR);
+  font-size: 11rem;
+  width: 53rem;
+  height: 28rem;
+  border: 1rem solid var(--DARKGRAY_COLOR);
+  line-height: 28rem;
+  text-align: center;
+}
+
+.weightGraphBoldFrameStyle {
+  color: var(--DARKGRAY_COLOR);
+  font-size: 11rem;
+  width: 53rem;
+  height: 28rem;
+  border: 2rem solid var(--DARKGRAY_COLOR);
+  line-height: 28rem;
+  text-align: center;
+}
+
+.resultFrameStyle {
+  font-size: 16rem;
+  margin-left: 20rem;
+  margin-right: 0;
+  margin-top: 40rem;
+  /* min-width:'100vw'; */
+  height: 30rem;
+  background-color: #fff;
+  color: var(--DARKGRAY_COLOR);
+  line-height: 30rem;
+  padding-left: 10rem;
+}
+
+/* // 畫一條斜線 */
+.diagonalLine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 200%;
+  height: 100%;
+
+  /* -45% 為反斜線 */
+  background: linear-gradient(
+    -45deg,
+    transparent 20%,
+    #84bd00 20%,
+    #84bd00 20%,
+    transparent 40%
+  );
+  /* 改變間距 */
+  background-size: 5rem 4rem;
+}
+
+.diagonalLine {
+  width: calc(100% - 10rem);
+  /* 100% 减去左右两边各5rem的margin */
+  height: 4rem;
+  position: relative;
+  overflow: hidden;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  /* 右边界的margin */
+}
+
+/* // 畫一條斜線 */
+.diagonalLineBlack::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    -45deg,
+    transparent 20%,
+    #333f48 20%,
+    #333f48 40%,
+    transparent 40%
+  );
+  background-size: 5rem 4rem;
+}
+
+.diagonalLineBlack {
+  width: calc(100% - 10rem);
+  /* 100% 减去左右两边各5rem的margin */
+  height: 4rem;
+  position: relative;
+  overflow: hidden;
+  margin-left: 5rem;
+  margin-right: 50rem;
+  /* 右边界的margin */
+}
+
+/* ----------------------  workoutLog.js -------------------- */
+
+.workoutLogFrameStyle {
+  color: var(--DARKBLACK_COLOR);
+  width: 162rem;
+  height: 42rem;
+  border: 2rem solid var(--MAIN_COLOR);
+  font-size: 14rem;
+  text-align: center;
+  line-height: 42rem;
+  margin: 4rem;
+}
+
+.workoutLogButton {
+  width: 201rem;
+  height: 40rem;
+  border: 2rem solid white;
+  color: white;
+  font-size: 20rem;
+  line-height: 40rem;
+  text-align: center;
+  /* // 漸層色 */
+  background: linear-gradient(to right, #80c342, #bae642);
+}
+
+.workoutLogSmallButton {
+  width: 171rem;
+  height: 39rem;
+  border: 2rem solid white;
+  color: white;
+  font-size: 20rem;
+  line-height: 39rem;
+  text-align: center;
+  /* // 漸層色 */
+  background: linear-gradient(to right, #80c342, #bae642);
+}
+
+.workoutLogOrangeColor {
+  color: var(--ORANGE_COLOR);
+  /* color: red; */
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+/* ----------------------  setTime.js -------------------- */
+
+.setTimeFrameStyle {
+  width: 127rem;
+  height: 49rem;
+  background: linear-gradient(to right, #80c342, #bae642);
+  line-height: 49rem;
+  color: #fff;
+  border: 2rem solid #fff;
+  text-align: center;
+}
+
+.setLoopFrameStyle {
+  width: 127rem;
+  height: 49rem;
+  /* // 漸層色 */
+  background: linear-gradient(to right, #80c342, #bae642);
+  line-height: 49rem;
+  color: #fff;
+  border: 2rem solid #fff;
+  text-align: center;
+}
+
+.filterByActivityImg {
+  width: 14rem;
+  height: 14rem;
+  margin-right: 7rem;
+  margin-left: 14rem;
+}
+
+/* // 畫點橫線 */
+.dottedline {
+  width: 329rem;
+  /* 设置线的宽度 */
+  height: 0rem;
+  /* 设置高度为0，因为我们只需要横线 */
+  margin: 13rem 0rem;
+  /* 设置上下边距，以便更好地显示 */
+  padding: 0;
+  /* 添加这行，确保没有内边距 */
+  box-sizing: border-box;
+  /* 添加这行，确保边框宽度不会增加元素的宽度 */
+  transform: scale(1);
+  border-bottom: 2rem dotted var(--MAIN_COLOR);
+  /* 设置边框为1像素的点线，颜色为黑色 */
+  line-height: 0rem;
+}
+
+/* // 畫點垂直線 */
+.dottedVerticalline {
+  border-left: 2rem dotted var(--MAIN_COLOR);
+  height: 100rem;
+  position: absolute;
+  left: 190rem;
+  margin-top: 10rem;
+}
+
+/* // 具有線性漸層色 */
+.linearGradient {
+  background: linear-gradient(
+    to bottom,
+    #80c342,
+    #bae642
+  ); /* 使用渐变背景实现点线效果 */
+}
+
+.linearGradient1 {
+  background: linear-gradient(90deg, #bae642 0%, #8ac942 64.9%, #80c342 100%);
+}
+
+/*  ---------------- 以下是 SingUp 用的css ------------------- */
+.signUpInputBigFrame {
+  text-align: center;
+  /* font-size: 14rem; */
+  width: 263rem;
+  height: 42rem;
+  background-color: white;
+  line-height: 42rem;
+  border: 2rem solid var(--MAIN_COLOR);
+}
+
+.signUpInputTest {
+  text-align: center;
+  /* font-size: 14; */
+  line-height: 2.5;
+  width: 263rem;
+  height: 42rem;
+  border: 2rem solid #84bd00;
+}
+
+.signUpInputHalfFrame {
+  /* // position: relative; */
+  /* // text-align:left; */
+  /* // vertical-align:top; */
+  /* // font-size: 14rem; */
+  width: 126rem;
+  height: 59rem;
+  /* // background-color: white; */
+  /* // line-height: 59rem; */
+  /* // border: 2rem solid var(MAIN_COLOR); */
+  /* // padding-left: 40rem; */
+  /* // padding-top:-30rem; */
+}
+
+.signUpSelectFrame {
+  text-align: center;
+  font-size: 14rem;
+  width: 131rem;
+  height: 42rem;
+  /* // height: 55rem; */
+  background-color: white;
+  line-height: 42rem;
+  /* // border: 2rem solid green */
+}
+
+.signUpBigBold {
+  font-size: 20rem;
+  color: #333f48;
+  text-align: center;
+  font-family: "proxima-nova";
+}
+
+/* // 字加加底線 */
+.signUpUnits {
+  color: var(--MAIN_COLOR); /* 使用你的颜色变量 */
+  text-decoration: underline;
+}
+
+.temp {
+  /* // background-color: red; */
+  width: 263rem;
+  height: 46rem;
+  border: 2rem solid var(--MAIN_COLOR);
+}
+
+/*  ----------   for components/dashboard.js  -------------*/
+.dashboardFrame {
+  /* box-sizing: border-box; */
+  width: 167.69rem;
+  /* height: 100.49rem; */
+  background-color: #fff;
+  /* padding-left:10.1rem; */
+}
+
+.dashboardIcon {
+  position: absolute;
+  right: 10rem;
+  bottom: 5rem;
+}
+
+.dashboardIconLong {
+  position: absolute;
+  right: 10rem;
+  bottom: 5rem;
+}
+
+.dashboardOrangeColor {
+  color: #ff7f30;
+  font-size: 20rem;
+  /* 下面這個會造成左右搖動的問題 */
+  /* padding-left: 16rem ;         */
+  /* margin-top:11.4rem; */
+}
+
+.dashboardEditGoal {
+  position: absolute;
+  right: 10rem;
+  top: 10rem;
+}

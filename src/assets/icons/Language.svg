@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.411rem" height="25.437rem" viewBox="0 0 25.411 25.437">
+  <g id="Language_Icon" data-name="Language Icon" transform="translate(0.5 0.5)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="12.205" cy="12.205" r="12.205" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_11" data-name="Line 11" y2="24.411" transform="translate(12.205)" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_107" data-name="Group 107" transform="translate(0 5.472)">
+      <line id="Line_12" data-name="Line 12" x1="24.411" transform="translate(0 6.733)" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_13" data-name="Line 13" x1="20.232" transform="translate(2.09)" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="0.91"/>
+      <line id="Line_14" data-name="Line 14" x1="20.232" transform="translate(2.09 13.466)" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="0.91"/>
+    </g>
+    <g id="Group_108" data-name="Group 108" transform="translate(5.008 0.497)">
+      <path id="Path_313" data-name="Path 313" d="M1759.051,42.277s7.032-3.45,7.032-11.609-6.872-12.338-6.872-12.338" transform="translate(-1751.688 -18.33)" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="1.098"/>
+      <path id="Path_314" data-name="Path 314" d="M1758.72,18.33s-7.032,3.45-7.032,11.609,6.872,12.338,6.872,12.338" transform="translate(-1751.688 -18.33)" fill="none" stroke="#333f48" stroke-miterlimit="10" stroke-width="1.098"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="Dashboard_Icon" data-name="Dashboard Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.705rem" height="20rem" viewBox="0 0 24.705 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_724" data-name="Rectangle 724" width="24.705rem" height="20rem" fill="#333f48"/>
+    </clipPath>
+  </defs>
+  <g id="Group_558" data-name="Group 558" clip-path="url(#clip-path)">
+    <path id="Path_1742" data-name="Path 1742" d="M10.509,1.294h0V12.4s0,0,0,0H1.3l0,0h0V1.3s0,0,0,0Zm0-1.294H1.294A1.3,1.3,0,0,0,0,1.294V12.4A1.3,1.3,0,0,0,1.294,13.7h9.217A1.3,1.3,0,0,0,11.806,12.4V1.294A1.3,1.3,0,0,0,10.512,0" fill="#333f48"/>
+    <path id="Path_1743" data-name="Path 1743" d="M130.093,59.745h0v11.1s0,0,0,0h-9.213l0,0h0v-11.1s0,0,0,0Zm0-1.294h-9.217a1.3,1.3,0,0,0-1.294,1.294V70.852a1.3,1.3,0,0,0,1.294,1.294H130.1a1.3,1.3,0,0,0,1.294-1.294V59.745a1.3,1.3,0,0,0-1.294-1.294" transform="translate(-106.685 -52.146)" fill="#333f48"/>
+    <path id="Path_1744" data-name="Path 1744" d="M130.093,1.294h0V3.712s0,0,0,0h-9.213l0,0h0V1.3s0,0,0,0ZM130.1,0h-9.217a1.3,1.3,0,0,0-1.294,1.294V3.716a1.3,1.3,0,0,0,1.294,1.294H130.1a1.3,1.3,0,0,0,1.294-1.294V1.294A1.3,1.3,0,0,0,130.1,0" transform="translate(-106.685)" fill="#333f48"/>
+    <path id="Path_1745" data-name="Path 1745" d="M10.509,140.261h0v2.417s0,0,0,0H1.3l0,0h0v-2.417s0,0,0,0Zm0-1.294H1.294A1.3,1.3,0,0,0,0,140.261v2.422a1.3,1.3,0,0,0,1.294,1.294h9.217a1.3,1.3,0,0,0,1.294-1.294v-2.422a1.3,1.3,0,0,0-1.294-1.294" transform="translate(0 -123.977)" fill="#333f48"/>
+  </g>
+</svg>
+

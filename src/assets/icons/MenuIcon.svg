@@ -1,0 +1,21 @@
+<svg id="Menu_Icon" data-name="Menu Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.463rem" height="20.126rem" viewBox="0 0 20.463 20.126">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="20.463rem" height="20.126rem" transform="translate(681.799 11.946)" fill="none" stroke="#333f48" stroke-width="1.75"/>
+    </clipPath>
+  </defs>
+  <g id="Group_177" data-name="Group 177" transform="translate(-681.799 -11.946)">
+    <line id="Line_21" data-name="Line 21" x2="12.463" transform="translate(685.799 22.038)" fill="none" stroke="#333f48" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"/>
+    <line id="Line_22" data-name="Line 22" x2="12.463" transform="translate(685.799 26.782)" fill="none" stroke="#333f48" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"/>
+    <line id="Line_23" data-name="Line 23" x2="12.463" transform="translate(685.799 17.236)" fill="none" stroke="#333f48" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"/>
+    <g id="Group_176" data-name="Group 176">
+      <g id="Group_148" data-name="Group 148">
+        <g id="Group_147" data-name="Group 147" clip-path="url(#clip-path)">
+          <g id="Group_175" data-name="Group 175">
+            <rect id="Rectangle_204" data-name="Rectangle 204" width="19.808" height="19.472" transform="translate(682.126 12.273)" fill="none" stroke="#333f48" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

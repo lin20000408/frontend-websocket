@@ -1,0 +1,63 @@
+<svg
+                          id="Close"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          width="calc(20.463rem )"
+                          height="calc(20.126rem "
+                          border="2rem solid red"
+                          viewBox="0 0 20.463 20.126"
+                        >
+                          <rect
+                            x="1"
+                            y="1"
+                            width="18.463"
+                            height="18.126"
+                            stroke="#333f48"
+                            strokeWidth="2"
+                            fill="none"
+                          />
+                          <defs>
+                            <clipPath id="clip-path">
+                              <rect
+                                id="Rectangle_46"
+                                data-name="Rectangle 46"
+                                width="20.463"
+                                height="20.126"
+                                transform="translate(203.266 2.116)"
+                                fill="none"
+                                stroke="#333f48"
+                                strokeWidth="1"
+                              />
+                            </clipPath>
+                          </defs>
+                          <path
+                            id="Path_400"
+                            data-name="Path 400"
+                            d="M216.864,18.184l-3.367-4.7-3.367,4.7h-2.52l4.5-6.158L207.88,6.174h2.52l3.1,4.411,3.079-4.411h2.539L214.9,12.008l4.483,6.176Z"
+                            transform="translate(-203.266 -2.116)"
+                            fill="#333f48"
+                          />
+                          <g
+                            id="Group_250"
+                            data-name="Group 250"
+                            transform="translate(-203.266 -2.116)"
+                          >
+                            <g
+                              id="Group_249"
+                              data-name="Group 249"
+                              clipPath="url(#clip-path)"
+                            >
+                              <rect
+                                id="Rectangle_45"
+                                data-name="Rectangle 45"
+                                width="19.808"
+                                height="19.472"
+                                transform="translate(203.593 2.443)"
+                                fill="none"
+                                stroke="#333f48"
+                                strokeMiterlimit="10"
+                                strokeWidth="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>

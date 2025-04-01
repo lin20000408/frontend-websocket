@@ -1,0 +1,631 @@
+/* // 雲端引入 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap'); */
+
+body,
+.ant-typography,
+.ant-component {
+  font-family: "proxima-nova", sans-serif !important;
+}
+
+/* // 本地引入 */
+/* @font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova Thin"),
+    url("/font/ProximaNova/ProximaNova-thin.otf") format("opentype");
+ 
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+ 
+  src:
+    local("Proxima Nova ThinIt"),
+    url("/font/ProximaNova/ProximaNova-semiboldit.otf") format("opentype");
+
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+    font-family: "Proxima_Nova";
+  
+    src:
+      local("Proxima Nova Extra-Light"),
+      url("/font/ProximaNova/ProximaNova-light.otf") format("opentype");
+  
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Proxima_Nova";
+  
+    src:
+      local("Proxima Nova Extra-LightIt"),
+      url("/font/ProximaNova/ProximaNova-semiboldit.otf") format("opentype");
+
+    font-weight: 200;
+    font-style: italic;
+  }
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova Light"),
+    url("/font/ProximaNova/ProximaNova-light.otf") format("opentype");
+
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+ 
+  src:
+    local("Proxima Nova LightIt"),
+    url("/font/ProximaNova/ProximaNova-semiboldit.otf") format("opentype");
+
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova Regular"),
+    url("/font/ProximaNova/ProximaNova-regular.otf") format("opentype");
+  
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova RegularIt"),
+    url("/font/ProximaNova/ProximaNova-semiboldit.otf") format("opentype");
+  
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova Medium"),
+    url("/font/ProximaNova/ProximaNova-regular.otf") format("opentype");
+  
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+ 
+  src:
+    local("Proxima Nova MediumIt"),
+    url("/font/ProximaNova/ProximaNova-semiboldit.otf") format("opentype");
+ 
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima_Nova";
+ 
+  src:
+    local("Proxima Nova Semibold"),
+    url("/font/ProximaNova/ProximaNova-semibold.otf") format("opentype");
+  
+  font-weight: 600;
+
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova SemiboldIt"),
+    url("/font/ProximaNova/ProximaNova-semiboldit.otf") format("opentype");
+  
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova Bold"),
+    url("/font/ProximaNova/ProximaNova-bold.otf") format("opentype");
+  
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova BoldIt"),
+    url("/font/ProximaNova/ProximaNova-boldit.otf") format("opentype");
+  
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima_Nova";
+ 
+  src:
+    local("Proxima Nova ExtraBold"),
+    url("/font/ProximaNova/ProximaNova-black.otf") format("opentype");
+ 
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  
+  src:
+    local("Proxima Nova ExtraBoldIt"),
+    url("/font/ProximaNova/ProximaNova-boldit.otf") format("opentype");
+
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+
+  src:
+    local("Proxima Nova Black"),
+    url("/font/ProximaNova/ProximaNova-black.otf") format("opentype");
+ 
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Proxima_Nova";
+
+  src:
+    local("Proxima Nova BlackIt"),
+    url("/font/ProximaNova/ProximaNova-boldit.otf") format("opentype");
+
+  font-weight: 900;
+  font-style: italic;
+} */
+
+:root {
+  /* font-family: 'Proxima_Nova','Proxima_Nova_Regular', 
+  'Proxima_Nova_Semibold', 'Proxima_Nova_SemiboldIt', 'Martel Sans',
+  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+  Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', 'Noto Color Emoji' !important; */
+
+  --main-color: #84bd00;
+  --darkblack-color: #252f3b;
+  --primary-color: #84bd00;
+  --speechify-primary-color: "#84bd00"
+    /* 设置为蓝色，你可以根据需要修改颜色值 */
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    line-height: 1.5;
+  font-weight: 400;
+  font-size: 1rem;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 87%);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* --font-sans-serif: "Proxima_Nova";
+  --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --body-font-family: var(--font-sans-serif); */
+}
+
+/* --------- init reset  初始化開始  -------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family:"Proxima_Nova"; */
+}
+
+/* 斜體文字不傾斜 */
+em,
+i {
+  font-style: normal;
+}
+
+/* 去掉i的小圓點 */
+li {
+  list-style: none;
+}
+
+img {
+  /*  border 0 為了照顧低版本流灠器如果圖片外面包含了鍵接會有邊框的問題 */
+  border: 0;
+
+  /* 取消圖片底側有空白縫隙的問題 */
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+input {
+  outline: none;
+}
+
+/*  ---------  初始化結束 ----------- */
+
+/* 使用覆盖后的主题色 */
+.ant-btn-primary,
+.ant-menu-item-selected,
+.ant-menu-item:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.ant-input,
+.ant-input-affix-wrapper {
+  border-radius: 0 !important;
+}
+body {
+font-family:
+    "proxima-nova",
+    "Martel Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    /* width: 100dvw;
+   */
+
+  /* // background-image: url('@/assets/images/common/Ba'ckgroundVertical.png');   不要寫可能比較好不然每次refresh刷新就出現 */
+
+  /* // background-position: 0% 0%; // 調整圖片的位置 */
+
+  /* // 因為有前綴所以才有警言 */
+
+  /* // -webkit-background-size: cover; 兼容Webkit内核浏览器如Chrome和Safari */
+
+  /* // -o-background-size: cover; 兼容Opera */
+  color:#252f3b;
+
+  /* 针对所有元素禁止文本选择 ---- 這個好用 */
+  user-select: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  touch-action: none;
+}
+
+/* //  **************   WorkoutBuider  一些類是自建的所以才用全局 *********************** */
+.dynamic-element {
+  /* // display: inline-block; */
+  display: flex;
+
+  /* 水平居中对齐 */
+  align-items: center;
+
+  /* 垂直居中对齐 */
+  justify-content: center;
+  flex: 0 0 auto;
+
+  /* 不被縮放 */
+  position: relative;
+  box-sizing: border-box;
+  width: 131rem;
+  height: 118rem;
+  background-color: white;
+  border: 2rem solid #84bd00;
+  margin: 5rem;
+
+  /* 決定外框或其它外框的距離 */
+  color: var(--darkblack-color);
+  font-size: 16rem;
+  flex-direction: column;
+
+  /* 设置为垂直方向 */
+}
+
+/* // Del 元件 */
+.dynamic-element-child-delete {
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+  width: 17rem;
+  height: 17rem;
+
+  /* // background-color: pink; */
+
+  /* // border: 3rem solid red; */
+
+  /* // margin: 5rem; */
+  color: blue;
+
+  /* // line-height: 30rem; */
+  text-align: center;
+}
+
+/* // 這是為了設定loop的記號而定它跟.dynamic-element-loop 是用於第一次放置loop 元素 */
+
+/* // 精準控制I am Loop 的文字位置 */
+.dynamic-element-loop > span {
+  position: relative;
+  top: -10rem;
+
+  /* 向下移动 10rem */
+
+  /* // top: 20; 向下移动 10rem */
+}
+
+.dynamic-element-loop {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 200rem;
+
+  /* 根据需要调整 */
+  height: 118rem;
+  background-color: white;
+  border: 2rem solid var(--main-color);
+  margin: 5rem;
+  color: var(--darkblack-color);
+
+  /* // flex-wrap: nowrap; */
+
+  /* // flex-direction: row; */
+  flex-flow: row nowrap;
+
+  /* // flex-direction: column; 设置为垂直方向 */
+}
+
+.dynamic-element-loop-child-delete {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+
+  /* // 加了位置偏移去做 */
+  left: 80rem;
+  bottom: 10rem;
+  width: 17rem;
+  height: 17rem;
+
+  /* // color: blue; */
+  text-align: center;
+}
+
+.dynamic-element-small::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2rem solid var(--main-color);
+}
+
+.dynamic-element-small {
+  position: relative;
+
+  /* 用relative會影響別人*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 0 0 auto;
+
+  /* // flex-wrap: nowrap; */
+
+  /* // flex-direction: row; */
+  flex-flow: row nowrap;
+
+  /* 这里的 "nowrap" 是 flex-wrap 的属性值 */
+  white-space: "nowrap";
+  box-sizing: border-box;
+
+  /* // 調整位置 */
+  top: 17rem;
+
+  /* // left:100rem */
+  width: 80rem;
+  height: 80rem;
+  background-color: white;
+  margin-top: 20rem;
+  margin-left: 20rem;
+  color: var(--darkblack-color);
+
+  /* // border: 3rem solid #333; 它會影響前面time元素的位置偏移所以才改成偽元素處理 */
+
+  /* // text-align: center; */
+
+  /* // flex-direction: column; 设置为垂直方向 */
+}
+
+.dynamic-element-child-delete-small {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  right: 5rem;
+  bottom: 5rem;
+  width: 17rem;
+  height: 17rem;
+  background-color: white;
+}
+
+.disabled {
+  color: red;
+  font-size: 100rem;
+}
+
+/* 或者针对特定元素禁止文本选择 */
+.disableSelect {
+  user-select: none;
+}
+
+/* // antd 改變傳入的圖片尺寸 + uplaod */
+.profile .ant-upload-select-picture-card {
+  /* // background-color:blue !important; */
+
+  /* // background: transparent !important; */
+  width: 140rem !important;
+  height: 140rem !important;
+  border: none !important;
+}
+
+.ant-upload-select {
+  position: relative;
+  top: 22rem;
+  left: 3rem;
+}
+
+/* // antd 改變傳入的圖片尺寸 image 大小依父  .ant-uplad-list-item-info */
+.profile .ant-upload-list-item-image {
+  background-color: yellow !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+}
+
+/* // antd 改變傳入的圖片尺寸 (圖形的父容器) */
+.profile .ant-upload-list-item-info {
+  /* // background-color:pink !important; */
+  width: 140rem !important;
+  height: 140rem !important;
+  border: none;
+  position: relative;
+  top: -7rem;
+  left: -22rem;
+}
+
+/* // antd 改變傳入的圖片尺寸 */
+.profile .ant-upload-list-item {
+  border: none !important;
+  position: "relative";
+  top: 20rem;
+  left: 5rem;
+}
+
+/* // antd 改變傳入的圖片尺寸 done 完成後多一個框把它取消 */
+.profile .ant-upload-list-done {
+  /* // background-color:yellow !important; */
+  border: none !important;
+}
+
+/* 隱藏upload, 點擊image 時出現預覽及刪除圖標 */
+.profile .ant-upload-list-item-actions {
+  display: none !important;
+}
+
+/* antd select修正 */
+.signUp .ant-select-selector {
+  height: 42rem !important;
+  width: 260rem !important;
+  border: 2rem solid var(--main-color) !important;
+  /* padding-top: 5rem !important; */
+  font-size: 16rem !important;
+  box-shadow: none !important;
+}
+
+/* 修改 Select 组件的背景颜色 */
+.ant-select-selector {
+  border: none !important;
+  font-size: 1.5rem !important;
+}
+
+/* 修改下拉菜单项的背景颜色 */
+.ant-select-item-option {
+  /* background-color:var(--main-color) !important; 默认背景颜色 */
+  color: black !important;
+  border: none !important;
+  font-size: 16rem !important;
+}
+
+/* 悬停时的背景颜色 */
+/* .ant-select-item-option:hover {
+  background-color: var(--main-color) !important;
+} */
+
+/* antd 時間修正*/
+.signUp .ant-picker-input {
+  margin-left: 80rem;
+  font-size: 16rem !important;
+}
+
+/* // 讓輸人框內容從中間輸人不要從左邊 */
+.ant-input {
+  text-align: center !important;
+}
+
+/* 流動字串用的 */
+.marquee {
+  width: 100dvw;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.marquee-inner {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* 頁面從底部(下)到上方滑上去的感覺使用動畫解決 */
+.slide-in-from-bottom-no-width {
+    background-color: rgba(242, 242, 242, 90%);
+    position: fixed;
+    z-index: 100;
+  
+top:10rem;
+  
+    
+    animation: slide-in 0.3s ease-out forwards;
+   
+  }
+.slide-in-from-bottom {
+  background-color: rgba(242, 242, 242, 90%);
+  position: fixed;
+  z-index: 100;
+  left: 0; 
+  width: 100dvw;
+
+  
+  animation: slide-in 0.3s ease-out forwards;
+  overflow: hidden;
+}
+.slide-in-from-bottom-no-ease{
+  
+    position: fixed;
+    right: 0;
+    width: 100dvw;
+  
+
+   
+    overflow: hidden;
+}
+@keyframes slide-in {
+  from {
+    top: 100vh; /* Start position (out of view at the bottom) */
+  }
+
+  to {
+    top: 0; /* End position (centered on the page) */
+  }
+}

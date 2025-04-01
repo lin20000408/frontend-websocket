@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1914" height="127" viewBox="0 0 1914 127">
+  <g id="Device_Data_Row_8" data-name="Device Data Row 8" transform="translate(47 11.979)">
+    <rect id="Rectangle_897" data-name="Rectangle 897" width="1914" height="127" rx="8" transform="translate(-47 -11.979)" fill="#dedede"/>
+    <g id="Device_Data_Bottom" data-name="Device Data Bottom">
+      <g id="Note" transform="translate(85.146 -28)">
+        <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua." data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." transform="translate(694.854 105.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="0" y="11">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</tspan></text>
+        <g id="Add_Note_Button" data-name="Add Note Button" transform="translate(744.854 86.021)">
+          <g id="Rectangle_750" data-name="Rectangle 750" fill="#ebebeb" stroke="#c7c7c7" stroke-width="1">
+            <rect width="53" height="17" rx="2" stroke="none"/>
+            <rect x="0.5" y="0.5" width="52" height="16" rx="1.5" fill="none"/>
+          </g>
+          <text id="_Add" data-name="+ Add" transform="translate(2)" fill="#97989a" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="3.871" y="11">+ ADD</tspan></text>
+        </g>
+        <text id="Note-2" data-name="Note" transform="translate(694.854 86.021)" fill="#84bd00" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="11">NOTE</tspan></text>
+      </g>
+      <g id="Error" transform="translate(-507 -28)">
+        <text id="Power_cord_is_plugged_into_incorrect_voltage." data-name="Power cord is plugged into incorrect voltage." transform="translate(484 105.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="0" y="11">Power cord is plugged into incorrect voltage.</tspan></text>
+        <text id="ERROR_ID_1-6" data-name="ERROR ID 1-6" transform="translate(484 86.021)" fill="#ff7f30" font-size="14" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="11">ERROR ID 1-6</tspan></text>
+      </g>
+    </g>
+    <line id="Device_Row_Divider_Line" data-name="Device Row Divider Line" x2="1870" transform="translate(-22.5 46.979)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-width="2" stroke-dasharray="0.25 4"/>
+    <g id="Device_Data_Top" data-name="Device Data Top">
+      <g id="Column_Dividers" data-name="Column Dividers" transform="translate(-351 -325.479)">
+        <line id="Line_626" data-name="Line 626" y1="41.545" transform="translate(1564.336 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_634" data-name="Line 634" y1="41.545" transform="translate(1863.336 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_635" data-name="Line 635" y1="41.545" transform="translate(2058.336 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_627" data-name="Line 627" y1="41.545" transform="translate(1697.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_625" data-name="Line 625" y1="41.545" transform="translate(1400.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_624" data-name="Line 624" y1="41.545" transform="translate(1238.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_623" data-name="Line 623" y1="41.545" transform="translate(1021.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_622" data-name="Line 622" y1="41.545" transform="translate(841.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_585" data-name="Line 585" y1="41.545" transform="translate(677.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_584" data-name="Line 584" y1="41.545" transform="translate(566.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+        <line id="Line_583" data-name="Line 583" y1="41.545" transform="translate(392.5 320.5)" fill="none" stroke="#0072b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="0.25 4"/>
+      </g>
+      <text id="Headquarters" transform="translate(1709.061 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="30.1" y="11">Headquarters</tspan></text>
+      <text id="CTL:2C_DRV:2D-8114" data-name="CTL:2C;DRV:2D-8114" transform="translate(1516.707 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="24.46" y="11">CTL:2C;DRV:2D-8114</tspan></text>
+      <text id="_2:30_pm_OCT_03_2023" data-name="2:30 pm
+OCT 03 2023" transform="translate(1355.718 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="54.151" y="11">2:30 pm</tspan><tspan x="36.843" y="25">OCT 03 2023</tspan></text>
+      <text id="_125" data-name="125" transform="translate(1226 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="42.264" y="11">125</tspan></text>
+      <text id="_1850_Miles" data-name="1850 Miles" transform="translate(1071 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="31.427" y="11">1850 Miles</tspan></text>
+      <text id="_230_Hours" data-name="230 Hours" transform="translate(907 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="33.157" y="11">230 Hours</tspan></text>
+      <text id="G690_ECO-POWR_Treadmill" data-name="G690 ECO-POWR Treadmill" transform="translate(675.646 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="4.78" y="11">G690 ECO-POWR Treadmill</tspan></text>
+      <text id="Treadmill_1" data-name="Treadmill 1" transform="translate(491.955 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="48.982" y="11">Treadmill 1</tspan></text>
+      <text id="_0318008" data-name="0318008" transform="translate(327.955 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="51.721" y="11">0318008</tspan></text>
+      <text id="ID" transform="translate(217.955 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="36.303" y="11">ID</tspan></text>
+      <text id="Fitness_Center" data-name="Fitness Center" transform="translate(49.045 0.021)" fill="#1d252d" font-size="14" font-family="Helvetica" letter-spacing="0.025em"><tspan x="32.685" y="11">Fitness Center</tspan></text>
+      <g id="Filter_Selection" data-name="Filter Selection" transform="translate(-22 0.021)">
+        <g id="Rectangle_216" data-name="Rectangle 216" fill="none" stroke="#84bd00" stroke-width="1.5">
+          <rect width="20" height="20" rx="4" stroke="none"/>
+          <rect x="0.75" y="0.75" width="18.5" height="18.5" rx="3.25" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
